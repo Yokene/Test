@@ -87,19 +87,18 @@ body{
 /* Стили для мобильных устройств */
 @media only screen and (max-width: 1080px) {
     .own {
-        flex-basis: auto; /* Ширина будет автоматически регулироваться */
-        height: auto; /* Высота будет автоматически регулироваться */
-        margin: 15px;
+        margin: 25px;
+        flex-basis: 1080px;
+        height: 550px;
     }
 
     body{
         background: linear-gradient(110deg, #40ff86, #5bfff8, #82b9ff);
     }
 
-    .own-qws,
     .answer {
-        flex-basis: auto; /* Ширина будет автоматически регулироваться */
-        height: auto; /* Высота будет автоматически регулироваться */
+        flex-basis: 100px;
+        height: 180px;
     }
 
     .anw-btn {
@@ -108,15 +107,18 @@ body{
     }
 
     .anw-txt {
-        font-size: 20px; /* Уменьшаем размер текста для мобильных устройств */
+        font-size: 40px; /* Уменьшаем размер текста для мобильных устройств */
     }
 
     .qws{
-        font-size: 40px;
+        font-size: 50px;
         padding: 20px;
     }
 
     .anw-btn{
-        width:125px
+        width: 290px;
+        margin: 15px;
+        height: 145px;
     }
+
 }

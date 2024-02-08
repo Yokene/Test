@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(90deg, #40ff86, #5bfff8, #82b9ff);
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    background-size: cover;
+}
+
+.container{
+    text-align: center;
+}
+
+.btn{
+    width: 300px;
+    height: 80px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.txt{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+
+.btn:hover{
+    background: rgba(167, 167, 167, 0.5);
+}

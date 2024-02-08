@@ -88,7 +88,7 @@ body{
 @media only screen and (max-width: 1080px) {
     .own {
         margin: 25px;
-        flex-basis: 1080px;
+        flex-basis: 100px;
         height: 550px;
     }
 
@@ -113,9 +113,7 @@ body{
     }
 
     .anw-btn{
-        width: 290px;
+        width: 250px;
         margin: 15px;
         height: 145px;
     }
-
-}

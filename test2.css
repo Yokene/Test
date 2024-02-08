@@ -85,7 +85,7 @@ body{
 }
 
 /* Стили для мобильных устройств */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
     .own {
         flex-basis: auto; /* Ширина будет автоматически регулироваться */
         height: auto; /* Высота будет автоматически регулироваться */
